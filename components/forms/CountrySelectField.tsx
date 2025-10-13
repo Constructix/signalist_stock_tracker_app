@@ -115,7 +115,7 @@ const CountrySelect = ({
   );
 };
 
-const CountrySelectField = ({
+export const CountrySelectField = ({
   name,
   label,
   control,
@@ -144,4 +144,3 @@ const CountrySelectField = ({
     </div>
   );
 };
-export default CountrySelectField;
